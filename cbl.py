@@ -85,3 +85,6 @@ def upperCase(wordToBeUpper):
 def lowerCase(wordToBeLower):
         return wordToBeLower.lower()
 
+def credits():
+        print ("Made by Jeff Lim in 2019 as a Github project.")
+        
