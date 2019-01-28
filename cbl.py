@@ -9,15 +9,8 @@ def ask(textToBeAsked):
 	
 def reverse(string):
 	string[::-1]
-	
-	
-def findFib(n):
-	if n == 0:
-		return 1
-	else if n == 1:
-		return 1
-	else:
-		return n
 
-	
-	
+
+def repeat(wordToBeRepeated, numOfTimes):
+    mosfasfsfsgf = wordToBeRepeated * numOfTimes
+    print(mosfasfsfsgf)
