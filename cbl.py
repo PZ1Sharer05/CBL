@@ -14,3 +14,7 @@ def reverse(string):
 def repeat(wordToBeRepeated, numOfTimes):
     mosfasfsfsgf = wordToBeRepeated * numOfTimes
     print(mosfasfsfsgf)
+
+def findSum(numone, numtwo):
+        return numone + numtwo
+        
