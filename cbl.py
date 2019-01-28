@@ -85,6 +85,6 @@ def upperCase(wordToBeUpper):
 def lowerCase(wordToBeLower):
         return wordToBeLower.lower()
 
-def credits():
-        print ("Made by Jeff Lim in 2019 as a Github project.")
-        
+
+def origins():
+        print ("Originally a dream, Jeff Lim invented the CBL as a language kids should use for programming \n I made the language fully kid friendly and I wish the kids would understand how to use CBL as well as the father of CBL, Python. \n Since Python is the father of CBL, understanding CBL means understanding Python. To read the full documentation, visit our website.")
