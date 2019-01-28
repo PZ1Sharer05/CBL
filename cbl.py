@@ -87,4 +87,13 @@ def lowerCase(wordToBeLower):
 
 def credits():
         print ("Made by Jeff Lim in 2019 as a Github project.")
-        
+
+
+
+
+def meterToCentimeter(valueOFMeter):
+        return valueOFMeter * 100
+
+
+def centimeterToMeter(valueOFCm):
+        return valueOFCm / 100
