@@ -8,20 +8,19 @@ pi = 3.14
 
 
 
-
 #All functions are in here
 
 def display(textToBeDisplayed):
 	print(textToBeDisplayed)
 
-	
+
 def ask(textToBeAsked):
 	a = input(textToBeAsked)
-	
-	
-	
+
+
+
 def reverse(string):
-	return string[::-1]
+	print(string[::-1])
 
 
 def repeatText(wordToBeRepeated, numOfTimes):
@@ -29,23 +28,23 @@ def repeatText(wordToBeRepeated, numOfTimes):
     print(resultOfWordToBeRepeated)
 
 def findSum(numone, numtwo):
-        return numone + numtwo
+        print(numone + numtwo)
 
 
 
 def findDifference(numdone, numdtwo):
-        return numdone - numdtwo
+        print(numdone - numdtwo)
 
 
 
 
 def findProduct(nummone, nummtwo):
-        return nummone * nummtwo
+        print(nummone * nummtwo)
 
 
 
 def findQuotient(numqone, numqtwo):
-        return numqone / numqtwo
+        print(numqone / numqtwo)
 
 
 
@@ -54,7 +53,7 @@ def findRemainder(numrone, numrtwo):
         return numrone % numrtwo
 
 
-        
+
 def askWithAnswer(question, answer):
         babfdas = input(question)
         if babfdas == answer:
@@ -63,7 +62,7 @@ def askWithAnswer(question, answer):
                 print ("Wrong answer")
 
 
-                
+
 def showNumber(numberToBeShown):
         return numberToBeShown
 
@@ -92,8 +91,13 @@ def credits():
 
 
 def meterToCentimeter(valueOFMeter):
-        return valueOFMeter * 100
+        print(valueOFMeter * 100)
 
 
 def centimeterToMeter(valueOFCm):
-        return valueOFCm / 100
+        print(valueOFCm / 100)
+
+def kilometerToMeter(valueOfKm):
+	print(valueOfKm * 1000)
+def meterToKilometer(valueOfMeterToBeChangedToKilometers):
+	print(valueOfMeterToBeChangedToKilometers / 1000)
