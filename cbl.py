@@ -1,14 +1,4 @@
-#All made variables are stored here
-full_pi = 3.142857142857143
-pi = 3.14
 
-
-
-
-
-
-
-#All functions are in here
 
 def display(textToBeDisplayed):
 	print(textToBeDisplayed)
@@ -50,7 +40,7 @@ def findQuotient(numqone, numqtwo):
 
 
 def findRemainder(numrone, numrtwo):
-        return numrone % numrtwo
+        print(numrone % numrtwo)
 
 
 
@@ -64,25 +54,25 @@ def askWithAnswer(question, answer):
 
 
 def showNumber(numberToBeShown):
-        return numberToBeShown
+        print(numberToBeShown)
 
 def areaOfCircle(radius):
-        return 3.14 * radius * radius
+        print(3.14 * radius * radius)
 
 
 def perimeterOfCircle(diameter):
-        return 3.14 * diameter
+        print(3.14 * diameter)
 
 
 def calculateLengthOfWord(word):
-        return len(word)
+        print (len(word))
 
 def upperCase(wordToBeUpper):
-        return wordToBeUpper.upper()
+        print(wordToBeUpper.upper())
 
 
 def lowerCase(wordToBeLower):
-        return wordToBeLower.lower()
+        print(wordToBeLower.lower())
 
 def credits():
         print ("Made by Jeff Lim in 2019 as a Github project.")
@@ -99,5 +89,12 @@ def centimeterToMeter(valueOFCm):
 
 def kilometerToMeter(valueOfKm):
 	print(valueOfKm * 1000)
+
+
 def meterToKilometer(valueOfMeterToBeChangedToKilometers):
 	print(valueOfMeterToBeChangedToKilometers / 1000)
+
+
+
+def documentation():
+	print("The documentation is under progress, please wait. ")
