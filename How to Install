@@ -1,7 +1,7 @@
 # How to install CBL
-
-Step 1: Open Terminal
-git clone this repository
-Step 2: Go to the downloads folder and move it to the folder that you are making your script with
-
-And your done!
+Step 1: Go to the releases tab and download the source files, you will get the cbl all its supporting libraries.
+Step 2: Copy the libraries of code in the directory where your project will be saved.
+Step 3: Go make a new project and write:
+        from cbl import *
+       
+Step 4: Go write the CBL Code!
