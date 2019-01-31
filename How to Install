@@ -5,3 +5,6 @@ Step 3: Go make a new project and write:
         from cbl import *
        
 Step 4: Go write the CBL Code!
+
+Note: You can also use other libraries like cbl math if you want
+Make sure you download official versions of CBL, betas are not highly suggested.
