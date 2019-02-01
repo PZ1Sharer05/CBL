@@ -6,7 +6,7 @@ def ask(textToBeAsked):
 
 
 
-def reverse(string):
+def reverseWord(string):
 	print(string[::-1])
 
 
@@ -18,22 +18,28 @@ def repeatText(wordToBeRepeated, numOfTimes):
 
 
 def askWithAnswer(question, questionAnswer):
-        babfdas = input(question)
-        if babfdas == questionAnswer:
+        questionToBeAsked = input(question)
+        if questionToBeAsked == questionAnswer:
                 print ("Thats the correct answer")
         else:
                 print ("Wrong answer")
 
-def calculateLengthOfWord(word):
+def length(word):
         print (len(word))
 
-def changeSizeOfWord(word, upperOrLower):
+def changeSizeOfWord(wordToBeChangedInSize, upperOrLower):
 	if upperOrLower == "upper":
-		print (word.upper())
+		print (wordToBeChangedInSize.upper())
 	else if upperOrLower == "lower":
-		print(word.lower())
+		print(wordToBeChangedInSize.lower())
 
-		
+
+
+
+def returnValue(valueToBeReturned):
+	return  valueToBeReturned
+
+
 def credits():
         print ("Made by Jeff Lim in 2019 as a Github project.")
 
