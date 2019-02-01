@@ -1,11 +1,23 @@
 def display(textToBeDisplayed):
 	print(textToBeDisplayed)
 
+
+def split(sentenceToBeSplit):
+	sentenceToBeSplit = sentenceToBeSplit.split()
+	print (sentenceToBeSplit)
 def ask(textToBeAsked):
 	input(textToBeAsked)
 
 def countWord(sentence, wordToLookFor):
 	print(sentence.count(wordToLookFor))
+
+
+def seeIfWordInText(text, wordToSee):
+	if wordToSee in text:
+		print("Yes " + wordToSee + " is in " + text + ".")
+	else:
+		print ("Not in text.")
+
 
 def reverse(string):
 	print(string[::-1])
@@ -19,6 +31,9 @@ def repeatText(wordToBeRepeated, numOfTimes):
 
 
 def askWithAnswer(question, questionAnswer):
+	if questionAnswer == "":
+		print("Absence of Value is not Allowed.")
+	else:
         questionToBeAsked = input(question)
         if questionToBeAsked == questionAnswer:
                 print ("Thats the correct answer")
