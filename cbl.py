@@ -4,9 +4,10 @@ def display(textToBeDisplayed):
 def ask(textToBeAsked):
 	input(textToBeAsked)
 
+def countWord(sentence, wordToLookFor):
+	print(sentence.count(wordToLookFor))
 
-
-def reverseWord(string):
+def reverse(string):
 	print(string[::-1])
 
 
@@ -30,7 +31,7 @@ def length(word):
 def changeSizeOfWord(wordToBeChangedInSize, upperOrLower):
 	if upperOrLower == "upper":
 		print (wordToBeChangedInSize.upper())
-	else if upperOrLower == "lower":
+	elif upperOrLower == "lower":
 		print(wordToBeChangedInSize.lower())
 
 
