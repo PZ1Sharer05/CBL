@@ -1,7 +1,6 @@
 def display(textToBeDisplayed):
 	print(textToBeDisplayed)
 
-
 def ask(textToBeAsked):
 	input(textToBeAsked)
 
@@ -25,19 +24,16 @@ def askWithAnswer(question, questionAnswer):
         else:
                 print ("Wrong answer")
 
-
-
-
 def calculateLengthOfWord(word):
         print (len(word))
 
-def upperCase(wordToBeUpper):
-        print(wordToBeUpper.upper())
+def changeSizeOfWord(word, upperOrLower):
+	if upperOrLower == "upper":
+		print (word.upper())
+	else if upperOrLower == "lower":
+		print(word.lower())
 
-
-def lowerCase(wordToBeLower):
-        print(wordToBeLower.lower())
-
+		
 def credits():
         print ("Made by Jeff Lim in 2019 as a Github project.")
 
