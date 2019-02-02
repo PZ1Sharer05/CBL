@@ -63,7 +63,9 @@ def findPerimeterOfEquilatralTriangle(side):
 #Volumes
 def findVolumeOfCube(sideOfCube):
     print (sideOfCube ** 3)
-
+def findSurfaceAreaOfCube(sideOfCube):
+    print (sideOfCube * sideOfCube * 6)
+    
 def findVolumeOfCuboid(length, heightOfCuboid, breadthOfCuboid):
     print (length * heightOfCuboid * breadthOfCuboid)
 
