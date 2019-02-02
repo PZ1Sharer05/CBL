@@ -52,3 +52,16 @@ def findAreaOfRectangle(length, breadth):
 
 def findAreaOfTriangle(base, height):
     print (base * height * 0.5)
+
+def findVolumeOfCube(sideOfCube):
+    print (sideOfCube ** 3)
+
+def findVolumeOfCuboid(length, heightOfCuboid, breadthOfCuboid):
+    print (length * heightOfCuboid * breadthOfCuboid)
+
+def findVolumeOfCylinder(base, height):
+     print (int(3.14 * base * base * height))
+
+
+def findVolumeOfPyramid(baseLengthOfPyramid, baseWidthOfPyramid, heightOfPyramid):
+    print (int((baseLengthOfPyramid * baseWidthOfPyramid * heightOfPyramid) / 3))
