@@ -28,31 +28,39 @@ def kilometerToMeter(valueOfKilometerToBeChangedToM):
 
 
 def millimeterToKilometer(valueOfMillimeterToBeChangedToKm):
-    print (valurOfMillimeterToBeChangedToKm / 1000000)
+    print (valueOfMillimeterToBeChangedToKm / 1000000)
 
 
 def kilometerToMillimeter(valueOfKilometerToBeChangedToMm):
-    print (valurOfMillimeterToBeChangedToKm * 1000000)
+    print (valueOfMillimeterToBeChangedToKm * 1000000)
 
-
+#Circle
 def areaOfCircle(radius, piType):
     if piType == "full_pi":
         print (int(full_pi * radius * radius))
     elif piType == "pi":
         print (int(pi * radius * radius))
+def findCircumference(diameter):
+    print (3.14 * diameter)
 
-
+#Square
 def findAreaOfSquare(side):
     print (side ** 2)
+def findPerimeterOfSquare(side):
+    print (side * 4)
 
-
+#Rectangle
 def findAreaOfRectangle(length, breadth):
     print (length * breadth)
-
-
+def findPerimeterOfRectangle(length, breadth):
+    print ((length + breadth) * 2)
+#Triangle
 def findAreaOfTriangle(base, height):
     print (base * height * 0.5)
+def findPerimeterOfEquilatralTriangle(side):
+    print (side * 3)
 
+#Volumes
 def findVolumeOfCube(sideOfCube):
     print (sideOfCube ** 3)
 
