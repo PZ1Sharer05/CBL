@@ -61,3 +61,7 @@ def findVolumeOfCuboid(length, heightOfCuboid, breadthOfCuboid):
 
 def findVolumeOfCylinder(base, height):
      print (int(3.14 * base * base * height))
+
+
+def findVolumeOfPyramid(baseLengthOfPyramid, baseWidthOfPyramid, heightOfPyramid):
+    print (int((baseLengthOfPyramid * baseWidthOfPyramid * heightOfPyramid) / 3))
