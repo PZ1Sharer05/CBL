@@ -40,3 +40,15 @@ def areaOfCircle(radius, piType):
         print (int(full_pi * radius * radius))
     elif piType == "pi":
         print (int(pi * radius * radius))
+
+
+def findAreaOfSquare(side):
+    print (side ** 2)
+
+
+def findAreaOfRectangle(length, breadth):
+    print (length * breadth)
+
+
+def findAreaOfTriangle(base, height):
+    print (base * height * 0.5)
