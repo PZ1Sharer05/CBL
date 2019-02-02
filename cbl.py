@@ -1,10 +1,17 @@
+def randomTakeNumbers(n1, lastn):
+	from random import randint
+	randomNum = randint(n1, lastn)
+
+
+
 def display(textToBeDisplayed):
 	print(textToBeDisplayed)
 
 
 def split(sentenceToBeSplit):
 	sentenceToBeSplit = sentenceToBeSplit.split()
-	print (sentenceToBeSplit)
+	for words in sentenceToBeSplit:
+		print (words)
 def ask(textToBeAsked):
 	input(textToBeAsked)
 
@@ -34,11 +41,11 @@ def askWithAnswer(question, questionAnswer):
 	if questionAnswer == "":
 		print("Absence of Value is not Allowed.")
 	else:
-        questionToBeAsked = input(question)
-        if questionToBeAsked == questionAnswer:
-                print ("Thats the correct answer")
-        else:
-                print ("Wrong answer")
+        	questionToBeAsked = input(question)
+        	if questionToBeAsked == questionAnswer:
+                	print ("Thats the correct answer")
+        	else:
+                	print ("Wrong answer")
 
 def length(word):
         print (len(word))
@@ -57,7 +64,7 @@ def returnValue(valueToBeReturned):
 
 
 def credits():
-        print ("Made by Jeff Lim in 2019 as a Github project.")
+        print ("Made by Jeff Lim in 2019 as a Github project. \n Change of CBL Programming Language Library is allowed. ")
 
 
 def documentation():
