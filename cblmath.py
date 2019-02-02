@@ -1,9 +1,14 @@
+pi = 3.14
+full_pi = 3.14285714286
+
+
+
 def centimeterToMeter(valueOfCmToBeChangedToM):
-    print (valueOfCmToBeChanged / 100)
+    print (valueOfCmToBeChangedToM / 100)
 
 
 def meterToCentimeter(valueOfMeterToBeChangedToCm):
-    print (valueOfMeterToBeChanged * 100)
+    print (valueOfMeterToBeChangedToCm * 100)
 
 
 def centimeterToKilometer(valueOfCentimeterToBeChangedToKm):
@@ -28,3 +33,10 @@ def millimeterToKilometer(valueOfMillimeterToBeChangedToKm):
 
 def kilometerToMillimeter(valueOfKilometerToBeChangedToMm):
     print (valurOfMillimeterToBeChangedToKm * 1000000)
+
+
+def areaOfCircle(radius, piType):
+    if piType == "full_pi":
+        print (int(full_pi * radius * radius))
+    elif piType == "pi":
+        print (int(pi * radius * radius))
