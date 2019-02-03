@@ -35,19 +35,32 @@ def kilometerToMillimeter(valueOfKilometerToBeChangedToMm):
     print (valueOfMillimeterToBeChangedToKm * 1000000)
 
 #Circle
-def areaOfCircle(radius, circleType):
-    if circleType == "Full":
-        return 3.14 * radius * radius
-    elif circleType == "Semicircle":
-        return 0.5 * 3.14 * radius * radius
-    elif circleType == "Quarter circle":
-        return  0.25 * 3.14 * radius * radius
+def circle(radius, operationToDoInCircle, typeOfCircle):
+    if operationToDoInCircle == "area":
+        #area
+        #Type of Circle
+        if typeOfCircle == "Full":
+            return pi * radius * radius
+        elif typeOfCircle == "Semicircle":
+            return pi * 0.5 * radius * radius
+        elif typeOfCircle == "Quarter circle":
+            return pi * 0.25 * radius * radius
+        else:
+            print ("Not a supported circle type.")
+    elif operationToDoInCircle == "perimeter":
+        #perimeter
+        if typeOfCircle == "Full":
+            return pi * radius * 2
+        elif typeOfCircle == "Semicircle":
+            return (0.5 * pi * radius * 2) + radius * 2
+        elif typeOfCircle == "Quarter circle":
+            return (pi * 0.25 * radius * 2) + radius * 2
+        else:
+            print ("Not a supported circle type")
+
+
     else:
-        print ("Error, not a circle type value, please choose between \n Full \n Semicircle \n and Quarter circle")
-
-def findCircumference(diameter):
-    print (3.14 * diameter)
-
+        print ("Not an operation")
 #Square
 def square(side, operationToDoInSquare):
     if operationToDoInSquare == "area":
