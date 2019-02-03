@@ -49,19 +49,19 @@ def findCircumference(diameter):
     print (3.14 * diameter)
 
 #Square
-def findAreaOfSquare(side):
-    print (side ** 2)
-def findPerimeterOfSquare(side):
-    print (side * 4)
-
+def square(side, operationToDoInSquare):
+    if operationToDoInSquare == "area":
+        return side ** 2
+    elif operationToDoInSquare == "perimeter":
+        return side * 4
 #Rectangle
-def findAreaOfRectangle(length, breadth):
-    return length * breadth
-
-def findPerimeterOfRectangle(length, breadth):
-    return (length + breadth) * 2
-
-
+def rectangle(length, breadth, operationToDo):
+    if operationToDo == "area":
+        return length * breadth
+    elif operationToDo == "perimeter":
+        return  (length + breadth) * 2
+    else:
+        print ("Not an operation. Only operations are: area \n perimeter")
 
 
 #Triangle
