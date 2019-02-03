@@ -10,13 +10,14 @@ def display(textToBeDisplayed):
 
 def split(sentenceToBeSplit):
 	sentenceToBeSplit = sentenceToBeSplit.split()
-	for words in sentenceToBeSplit:
-		print (words)
+	return sentenceToBeSplit
+
+	
 def ask(textToBeAsked):
 	input(textToBeAsked)
 
 def countWord(sentence, wordToLookFor):
-	print(sentence.count(wordToLookFor))
+	return sentence.count(wordToLookFor)
 
 
 def seeIfWordInText(text, wordToSee):
