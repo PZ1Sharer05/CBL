@@ -10,13 +10,14 @@ def display(textToBeDisplayed):
 
 def split(sentenceToBeSplit):
 	sentenceToBeSplit = sentenceToBeSplit.split()
-	for words in sentenceToBeSplit:
-		print (words)
+	return sentenceToBeSplit
+
+	
 def ask(textToBeAsked):
 	input(textToBeAsked)
 
 def countWord(sentence, wordToLookFor):
-	print(sentence.count(wordToLookFor))
+	return sentence.count(wordToLookFor)
 
 
 def seeIfWordInText(text, wordToSee):
@@ -47,25 +48,24 @@ def askWithAnswer(question, questionAnswer):
         	else:
                 	print ("Wrong answer")
 
-def length(word):
-        print (len(word))
+def lengthOfWord(word):
+	return len(word)
+
 
 def changeSizeOfWord(wordToBeChangedInSize, upperOrLower):
 	if upperOrLower == "upper":
-		print (wordToBeChangedInSize.upper())
+		return wordToBeChangedInSize.upper()
 	elif upperOrLower == "lower":
-		print(wordToBeChangedInSize.lower())
+		return wordToBeChangedInSize.lower()
 
 
 
 
-def returnValue(valueToBeReturned):
-	return  valueToBeReturned
 
 
 def credits():
-        print ("Made by Jeff Lim in 2019 as a Github project. \n Change of CBL Programming Language Library is allowed. ")
+        print ("Made by Jeff Lim in 2019 as a Github project. Licensed under the MIT License, copyright permissions are required.")
 
 
 def documentation():
-	print("Download the free documentation at jefflim076@wixsite.com/rewind ")
+	print("The documentation is in the github file: CBL Documentation.docx")
