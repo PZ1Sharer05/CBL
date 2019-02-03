@@ -61,21 +61,35 @@ def circle(radius, operationToDoInCircle, typeOfCircle):
 
     else:
         print ("Not an operation")
-#Square
-def square(side, operationToDoInSquare):
-    if operationToDoInSquare == "area":
-        return side ** 2
-    elif operationToDoInSquare == "perimeter":
-        return side * 4
-#Rectangle
-def rectangle(length, breadth, operationToDo):
-    if operationToDo == "area":
-        return length * breadth
-    elif operationToDo == "perimeter":
-        return  (length + breadth) * 2
-    else:
-        print ("Not an operation. Only operations are: area \n perimeter")
 
+
+def squareOrRectangle(shape, operationToDo, lengthOfShape, breadthOfShape):
+    if shape == "square":
+        #square
+        if lengthOfShape == breadthOfShape:
+
+            if operationToDo == "area":
+                #areaOfSquare
+                return lengthOfShape ** 2
+            elif operationToDo == "perimeter":
+                #perimeterOfSquare
+                return  lengthOfShape * 4
+            else:
+                print ("Not an operation")
+        else:
+            print ("Not a square")
+    elif shape == "rectangle":
+        #rectangle
+        if operationToDo == "area":
+            #areaOfRectangle
+            return lengthOfShape * breadthOfShape
+        elif operationToDo == "perimeter":
+            #perimeterOfRectangle
+            return  (lengthOfShape + breadthOfShape) * 2
+        else:
+            print ("Not an operation")
+    else:
+        print ("Not a valid shape for function")
 
 #Triangle
 def areaOfTriangle(base, height):
