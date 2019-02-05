@@ -105,11 +105,16 @@ def perimeterOfTriangle(side,nextSide,lastSide,type):
         print ("Error, not a triangle type, the only types are: \n Equilateral \n Isosceles \n and Scalene")
 
 #Volumes
-def volumeOfCube(side):
-    return side ** 3
-
-def volumeOfCuboid(lengthOfCuboid, heightOfCuboid, breadthOfCuboid):
-    return lengthOfCuboid * heightOfCuboid * breadthOfCuboid
+def volumeOfCubeOrCuboid(lengthOfCuboid, breadthOfCuboid, heightOfCuboid, shape):
+    if shape == "Cube":
+        if lengthOfCuboid == breadthOfCuboid and lengthOfCuboid == heightOfCuboid and breadthOfCuboid == heightOfCuboid:
+            return lengthOfCuboid ** 3
+        else:
+            print ("Not a cube")
+    elif shape == "Cuboid":
+        return lengthOfCuboid * heightOfCuboid * breadthOfCuboid
+    else:
+        print ("Not a cube or cuboid")
 
 def findVolumeOfCylinder(base, height):
      print (int(3.14 * base * base * height))
