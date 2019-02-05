@@ -1,7 +1,7 @@
 def randomTakeNumbers(n1, lastn):
 	from random import randint
 	randomNum = randint(n1, lastn)
-
+	return randomNum
 
 
 def display(textToBeDisplayed):
@@ -12,7 +12,7 @@ def split(sentenceToBeSplit):
 	sentenceToBeSplit = sentenceToBeSplit.split()
 	return sentenceToBeSplit
 
-	
+
 def ask(textToBeAsked):
 	input(textToBeAsked)
 
@@ -22,31 +22,30 @@ def countWord(sentence, wordToLookFor):
 
 def seeIfWordInText(text, wordToSee):
 	if wordToSee in text:
-		print("Yes " + wordToSee + " is in " + text + ".")
+		return True
 	else:
-		print ("Not in text.")
-
+		return False
 
 def reverse(string):
-	print(string[::-1])
+	return string[::-1]
 
 
 def repeatText(wordToBeRepeated, numOfTimes):
     resultOfWordToBeRepeated = wordToBeRepeated * numOfTimes
-    print(resultOfWordToBeRepeated)
+    return resultOfWordToBeRepeated
 
 
 
 
-def askWithAnswer(question, questionAnswer):
+def askWithAnswer(question, questionAnswer, messageToShowWhenValueIsEqual, messageToShowWhenValueIsNotEqual):
 	if questionAnswer == "":
 		print("Absence of Value is not Allowed.")
 	else:
         	questionToBeAsked = input(question)
         	if questionToBeAsked == questionAnswer:
-                	print ("Thats the correct answer")
+                	return messageToShowWhenValueIsEqual
         	else:
-                	print ("Wrong answer")
+                	return messageToShowWhenValueIsNotEqual
 
 def lengthOfWord(word):
 	return len(word)
