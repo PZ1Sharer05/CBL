@@ -28,7 +28,7 @@ def countWord(sentence, wordToLookFor):
 	return sentence.count(wordToLookFor)
 
 
-def seeIfWordInText(text, wordToSee):
+def checkIfWordInText(text, wordToSee):
 	if wordToSee in text:
 		return True
 	else:
@@ -64,7 +64,8 @@ def changeSizeOfWord(wordToBeChangedInSize, upperOrLower):
 		return wordToBeChangedInSize.upper()
 	elif upperOrLower == "lower":
 		return wordToBeChangedInSize.lower()
-
+	else:
+		print ("Not a supported case type.")
 
 
 
