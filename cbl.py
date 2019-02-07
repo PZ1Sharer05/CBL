@@ -4,10 +4,14 @@ def randomTakeNumbers(n1, lastn):
 	return randomNum
 
 
-def display(textToBeDisplayed):
-	print(textToBeDisplayed)
-
-
+def showShortText(shortText):
+	idkfdgbssddddddddd = len(shortText)
+	if idkfdgbssddddddddd > 500:
+		print ("Not short text, short text must have maximum of 500 characters. \nConsider using showTextFunction.")
+	else:
+		print(shortText)
+def showText(textToBeShown):
+	print(textToBeShown)
 def split(sentenceToBeSplit):
 	sentenceToBeSplit = sentenceToBeSplit.split()
 	return sentenceToBeSplit
