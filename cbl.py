@@ -10,8 +10,12 @@ def showShortText(shortText):
 		print ("Not short text, short text must have maximum of 500 characters. \nConsider using showTextFunction.")
 	else:
 		print(shortText)
+
+
 def showText(textToBeShown):
 	print(textToBeShown)
+
+
 def split(sentenceToBeSplit):
 	sentenceToBeSplit = sentenceToBeSplit.split()
 	return sentenceToBeSplit
