@@ -8,3 +8,6 @@ Step 4: Go write the CBL Code!
 
 Note: You can also use other libraries like cbl math if you want
 Make sure you download official versions of CBL, betas are not highly suggested.
+
+
+NOTE: Older versions of CBL like CBL 1.0 or beta versions will be deleted from the versions tab if a new version has been released, because we consider those versions as "not supported". CBL can work in Mac, Windows and Linux, as long as you have Python.
