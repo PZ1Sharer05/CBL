@@ -4,6 +4,12 @@ def randomTakeNumbers(n1, lastn):
 	return randomNum
 
 
+def randomTakeFromArray(arrayToBeRandommized):
+	import random
+	randomGeneratedChoice = random.choice(arrayToBeRandommized)
+	return randomGeneratedChoice
+
+
 def showShortText(shortText):
 	idkfdgbssddddddddd = len(shortText)
 	if idkfdgbssddddddddd > 500:
@@ -45,15 +51,6 @@ def repeatText(wordToBeRepeated, numOfTimes):
 
 
 
-def askWithAnswer(question, questionAnswer, messageToShowWhenValueIsEqual, messageToShowWhenValueIsNotEqual):
-	if questionAnswer == "":
-		print("Absence of Value is not Allowed.")
-	else:
-        	questionToBeAsked = input(question)
-        	if questionToBeAsked == questionAnswer:
-                	return messageToShowWhenValueIsEqual
-        	else:
-                	return messageToShowWhenValueIsNotEqual
 
 def lengthOfWord(word):
 	return len(word)
@@ -73,7 +70,3 @@ def changeSizeOfWord(wordToBeChangedInSize, upperOrLower):
 
 def credits():
         print ("Made by Jeff Lim in 2019 as a Github project. Licensed under the MIT License, copyright permissions are required.")
-
-
-def documentation():
-	print("The documentation is in the github file: CBL Documentation.docx")
