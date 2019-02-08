@@ -8,7 +8,14 @@ def randomTakeFromArray(arrayToBeRandommized):
 	import random
 	randomGeneratedChoice = random.choice(arrayToBeRandommized)
 	return randomGeneratedChoice
+def interger(intergerValue):
+	return int(intergerValue)
 
+def string(stringValue):
+	return str(stringValue)
+
+def floatingPoint(floatNum):
+	return float(floatNum)
 
 def showShortText(shortText):
 	idkfdgbssddddddddd = len(shortText)
