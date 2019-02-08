@@ -63,7 +63,7 @@ def lengthOfWord(word):
 	return len(word)
 
 
-def changeSizeOfWord(wordToBeChangedInSize, upperOrLower):
+def sizeOfWord(wordToBeChangedInSize, upperOrLower):
 	if upperOrLower == "upper":
 		return wordToBeChangedInSize.upper()
 	elif upperOrLower == "lower":
