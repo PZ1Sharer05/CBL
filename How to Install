@@ -1,13 +1,13 @@
-# How to install CBL
-Step 1: Go to the releases tab and download the source files, you will get the cbl all its supporting libraries.
+STEPS TO INSTALL CBL
+
+Step 1: Go to the releases tab and download the latest source files, you will get the cbl all its supporting libraries.
 Step 2: Copy the libraries of code in the directory where your project will be saved.
 Step 3: Go make a new project and write:
         from cbl import *
        
 Step 4: Go write the CBL Code!
 
-Note: You can also use other libraries like cbl math if you want
 Make sure you download official versions of CBL, betas are not highly suggested.
 
 
-NOTE: Older versions of CBL like CBL 1.0 or beta versions will be deleted from the versions tab if a new version has been released, because we consider those versions as "not supported". CBL can work in Mac, Windows and Linux, as long as you have Python.
+NOTE: Older versions of CBL will soon be deleted, betas will be deleted quickly (regularly).
