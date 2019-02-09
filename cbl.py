@@ -64,6 +64,7 @@ def lengthOfWord(word):
 
 
 def sizeOfWord(wordToBeChangedInSize, upperOrLower):
+	upperOrLower.lower()
 	if upperOrLower == "upper":
 		return wordToBeChangedInSize.upper()
 	elif upperOrLower == "lower":
