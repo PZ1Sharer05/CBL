@@ -2,6 +2,18 @@ pi = 3.14
 full_pi = 3.14285714286
 
 
+def addNumbers(n1, n2):
+    return n1 + n2
+def subtract(ns1, ns2):
+    return ns1 - ns2
+def multiply(nm1, nm2):
+    return nm1 * nm2
+def divide(nd1, nd2):
+    return nd1 / nd2
+def remainder(nr1, nr2):
+    return nr1 % nr2
+    
+
 def evenOrOdd(number, typeToCheck):
     if typeToCheck == "even":
         if number % 2 == 0:
