@@ -8,11 +8,15 @@ def subtract(ns1, ns2):
     return ns1 - ns2
 def multiply(nm1, nm2):
     return nm1 * nm2
-def divide(nd1, nd2):
-    return nd1 / nd2
-def remainder(nr1, nr2):
-    return nr1 % nr2
-    
+def divide(nd1, nd2, showRemainder):
+    if showRemainder == True:
+        return nd1 / nd2
+        return nd1 % nd2
+    elif showRemainder == False:
+        return nd1 / nd2
+        
+
+
 
 def evenOrOdd(number, typeToCheck):
     if typeToCheck == "even":
