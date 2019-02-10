@@ -9,12 +9,13 @@ def subtract(ns1, ns2):
 def multiply(nm1, nm2):
     return nm1 * nm2
 def divide(nd1, nd2, showRemainder):
-    if showRemainder == True:
+    showRemainder.lower()
+    if showRemainder == "yes"":
         return nd1 / nd2
         return nd1 % nd2
-    elif showRemainder == False:
+    elif showRemainder == "no":
         return nd1 / nd2
-        
+
 
 
 
