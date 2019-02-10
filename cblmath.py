@@ -2,37 +2,62 @@ pi = 3.14
 full_pi = 3.14285714286
 
 
+def addNumbers(n1, n2):
+    return n1 + n2
+def subtract(ns1, ns2):
+    return ns1 - ns2
+def multiply(nm1, nm2):
+    return nm1 * nm2
+def divide(nd1, nd2):
+    return nd1 / nd2
+def remainder(nr1, nr2):
+    return nr1 % nr2
+    
+
+def evenOrOdd(number, typeToCheck):
+    if typeToCheck == "even":
+        if number % 2 == 0:
+            return True
+        else:
+            return False
+    elif typeToCheck == "odd":
+        if number % 2 == 1:
+            return True
+        else:
+            return False
+    else:
+        print ("Error, not part of function.")
 
 def centimeterToMeter(valueOfCmToBeChangedToM):
-    print (valueOfCmToBeChangedToM / 100)
+    return valueOfCmToBeChangedToM / 100
 
 
 def meterToCentimeter(valueOfMeterToBeChangedToCm):
-    print (valueOfMeterToBeChangedToCm * 100)
+    return valueOfMeterToBeChangedToCm * 100
 
 
 def centimeterToKilometer(valueOfCentimeterToBeChangedToKm):
-    print (valueOfCentimeterToBeChangedToKm / 100000)
+    return valueOfCentimeterToBeChangedToKm / 100000
 
 
 def kilometerToCentimeter(valueOfKilometerToBeChangedToCm):
-    print (valueOfKilometerToBeChangedToCm * 100000)
+    return valueOfKilometerToBeChangedToCm * 100000
 
 
 def meterToKilometer(valueOfMeterToBeChangedToKm):
-    print (valueOfMeterToBeChangedTokilometer / 1000)
+    return valueOfMeterToBeChangedTokilometer / 1000
 
 
 def kilometerToMeter(valueOfKilometerToBeChangedToM):
-    print (valueOfKilometerToBeChangedToMeter * 1000)
+    return valueOfKilometerToBeChangedToMeter * 1000
 
 
 def millimeterToKilometer(valueOfMillimeterToBeChangedToKm):
-    print (valueOfMillimeterToBeChangedToKm / 1000000)
+    return valueOfMillimeterToBeChangedToKm / 1000000
 
 
 def kilometerToMillimeter(valueOfKilometerToBeChangedToMm):
-    print (valueOfMillimeterToBeChangedToKm * 1000000)
+    return valueOfMillimeterToBeChangedToKm * 1000000
 
 #Circle
 def circle(radius, operationToDoInCircle, typeOfCircle):
@@ -117,8 +142,8 @@ def volumeOfCubeOrCuboid(lengthOfCuboid, breadthOfCuboid, heightOfCuboid, shape)
         print ("Not a cube or cuboid")
 
 def findVolumeOfCylinder(base, height):
-     print (int(3.14 * base * base * height))
+     return 3.14 * base * base * height
 
 
 def findVolumeOfPyramid(baseLengthOfPyramid, baseWidthOfPyramid, heightOfPyramid):
-    print (int((baseLengthOfPyramid * baseWidthOfPyramid * heightOfPyramid) / 3))
+    return (baseLengthOfPyramid * baseWidthOfPyramid * heightOfPyramid) / 3
