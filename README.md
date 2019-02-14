@@ -7,3 +7,6 @@ CBL is designed for children, it uses the function display() instead of print().
 # Next Steps
 If the kid already knows CBL, you can move on to Python since CBL is built with Python, then Python code is easier to understand.
 
+# CBL FOR SWIFT
+CBL is made with Python 3. But we are now working on Swift 4.2 version of CBL. 
+In CBL For Swift, we consider it as a library.
