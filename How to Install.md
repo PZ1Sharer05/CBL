@@ -1,4 +1,4 @@
-STEPS TO INSTALL CBL
+# STEPS TO INSTALL CBL
 
 Step 1: Go to the releases tab and download the latest source files, you will get the cbl all its supporting libraries.
 Step 2: Copy the libraries of code in the directory where your project will be saved.
